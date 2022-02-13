@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Difference between
+	InnerHTML and InnerText
+	</title>
+</head>
+
+<body style="text-align:center;">
+	
+<h1 style="color:green">GeeksforGeeks</h1>
+
+	<div id="test">
+		<h1>Sanjay Saravanan</h1>
+	</div>
+	<p></p>
+  <div id="new" >
+
+  </div>
+	<button onClick="innerTextFn()">
+		innerHTML
+	</button>
+	<button onClick="innerHTMLFn()">
+		innerText
+	</button>
+  <button onclick="addToNew()">
+    Add Content To New Div
+  </button>
+	<p id="op"></p>
+
+	<script>
+		function innerTextFn() {
+			var x = document.getElementById('test');
+			alert(x.innerText);
+		}
+
+		function innerHTMLFn() {
+			var x = document.getElementById('test');
+			alert(x.innerHTML);
+		}
+    function addToNew() {
+      var x = document.getElementById('new');
+      x.innerHTML = '<h1>Sanjay Saravanan</h1>';
+    }
+	</script>
+</body>
+
+</html>

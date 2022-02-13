@@ -1,0 +1,67 @@
+
+Recap
+
+
+
+Topics:
+
+    Window vs Document
+
+      window:
+        It is the main javascript object root, global object in a browser. 
+        window object represents an open window in a browser.
+
+      Document:
+
+        document is an object inside window
+
+        when an HTML document is loaded into a web browser, it becomes a document object.
+        document object is the root node of the HTML document
+
+        window.document or just document is the main object of the potentially 
+        visible (or better yet: rendered) document object model/DOM.
+
+        Commonly used window until functions
+          
+          alert, confirm, prompt,
+          alert --> a simple alert for the user
+          confirm --> confirm prompts the user to cancenl or ok
+              return true or false
+          prompt ---> Gets an input from the user
+            return input-value-from-user
+
+          localStorage, sessionStorage
+          https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+          setTimeout, 
+            Do an action after specified amount of time
+            clearTimeout ---> clears setTimeout
+
+          setInterval, 
+            do an action on a specified intervals
+           clearInterval ---> clears setInterval
+        
+        Reference: https://www.w3schools.com/jsref/obj_window.asp
+
+
+    Event handling:
+
+      addEventListener, removeEventListener
+
+      Input ---> input value with event
+      event.handling options
+
+
+
+
+      
+      
+
+
+      
+      bubbling, capturing,
+
+
+
+
+

@@ -1,0 +1,29 @@
+
+Topics
+
+  Recap: Fonts, Icons, RWD, Bootstrap
+
+  DOM --> Document Object Model 
+    1. document.createElement
+    2. innerText vs innerHtml
+          innerText = renders everything as a simple innerText
+          innerHtml = renders the parsed value on the right hand side
+            ( i.e, <h1>Sam</h1> ---> Header Tag with content Sam )
+
+    3. style ---> element.style.color = 'red', element.style.fontSize='32px', setAttribute --> element.setAttribute('id', 'my-btn');
+
+    4. getElementById  / getElementByClassName
+        getElementById --> Selects the first occurence of the getElementById
+        getElementByClassName ---> Selects all the elements with matching class
+
+
+    5. querySelector / querySelectorAll  ---> document.querySelector(".my-class");
+        querySelector ---> Selects the first occurence of the matching query
+        querySelectorAll ---> Selects the all the occurence of the matching query
+    
+    6. input example, 
+    7. appendChild / append*
+        appendChild can only append( put inside an element ) one single child
+          returns appended-child
+        append can append( put inside an element ) multiple childs
+          returns nothing

@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: aqua;
+  height: 50px;
+}
+
+.inside-content {
+  background-color: blue;
+  height: 500px;
+  width: 500px;
+  color: white;
+}
+
+.content-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  width: 20%;
+  background-color: red;
+  margin: 1%;
+  height: 300px;
+}
+
+.center-section {
+  width: 54%;
+  background-color: lightblue;
+  margin: 1%;
+  height: 300px;
+}
+
+.right-section {
+  width: 20%;
+  background-color: yellowgreen;
+  margin: 1%;
+  height: 300px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+  .center-section {
+    width: 76%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .center-section {
+    width: 98%;
+  }
+  .left-section {
+    width: 98%;
+  }
+  .right-section {
+    width: 98%;
+  }
+}
+
+
+/* @media screen and (min-width: 800px) and (max-width: 1200px) {
+  .inside-content {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .inside-content {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .inside-content {
+    background-color: pink;
+  }
+} */
+
+/* 
+  max-width is the width of the target display area, e.g. the browser
+  max-device-width is the width of the device's entire rendering area, i.e. the actual device screen
+  Same goes for max-height and max-device-height naturally.
+*/
+
+/* @media screen and (orientation: portrait) {
+  .inside-content {
+    background-color: greenyellow;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .inside-content {
+    background-color: tomato;
+  }
+} */
