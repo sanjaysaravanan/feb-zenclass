@@ -1,0 +1,26 @@
+
+
+Recap:
+  document vs window
+  commonly used window util functions
+
+
+
+Contents:
+
+  event handling:
+    bubbling, capturing
+
+  Callback
+    What's the callback?
+      Passing a function as a parameter another
+    Use & its purpose of the callback
+      executing a set of instructions after some operations ( between i/p & o/p )
+
+      Modularizing codes in large applications, asynchrnouse programming
+
+
+    Pain of callback:
+      Chain of callback will result in unmanagable codebase
+      Passing output from async callback function is tedious in nature
+      
