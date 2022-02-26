@@ -1,0 +1,29 @@
+
+
+
+Recap:
+  Event handling
+  Callback
+
+Topics:
+  - Promise
+    The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value
+
+
+  - Promise States
+    Pending, 
+      Initial State
+    fullfilled
+      Success
+    Rejected
+      Failed
+
+  - Promise Chain ( Chain promises when input of certain promise is dependent on other )
+    Chaining promises one after the other using .then()
+
+  - Promise.all()
+    Handle multiple promise simultaneously
+
+
+If Possible,
+  fetch
